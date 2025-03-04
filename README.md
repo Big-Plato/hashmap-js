@@ -1,6 +1,6 @@
 # **Hashmap in JavaScript**
 
-A Hashmap is a data structure that indexes key-values pair with some sort of function that 'hashes' the key and puts a hash number in a bucket. This bucket is used to access a specific key directly with a `O(1)` time in a best case scenario. So it's pretty straightforward to use. In a worst case scenario, you will have a `O(n)` time to acess, remove or insert a value, because if inside the bucket you are looking there is a linked list, the time will increase relatively with the number of key-value pairs inside this bucket.
+A HashMap is a data structure that indexes key-value pairs using a function that 'hashes' the key and assigns it to a bucket based on the resulting hash number. This bucket is used to access a specific key directly with an O(1) time complexity in the best-case scenario. As a result, it's quite efficient and straightforward to use. However, in the worst-case scenario, the time complexity for accessing, removing, or inserting a value can degrade to O(n). This happens when the bucket you're looking at contains a linked list, and the time required increases relative to the number of key-value pairs stored in that bucket.
 
 
 If you want to know more about you can read this [article](https://samwho.dev/hashing/).
