@@ -10,7 +10,7 @@ In this task, I've had to implement a class `HashMap` to produce hashmaps that i
 
 
 # **How to use**:
-```
+```javascript
 // Initialize an instance
 const test = new HashMap();
 
